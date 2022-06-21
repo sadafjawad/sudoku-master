@@ -20,5 +20,5 @@ LIGHTBLUE = (96, 216, 232)
 BOARD = [[0 for i in range(9)] for j in range(9)]
 def generateBoard():
     BOARD = boardList[random.randint(0,49)]
-    return BOARD
+    return BOARD 
 
