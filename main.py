@@ -212,7 +212,7 @@ class App:
                                 self.incorrectCells.append([xidx, yidx])
                             if [xidx, yidx] in self.defaultCells:
                                 for k in range(3):
-                                    for l in range(3):
+                                    for l in range(3): 
                                         xidx2 = x*3+k
                                         yidx2 = y*3+l
                                         if self.grid[yidx2][xidx2] == self.grid[yidx][xidx] and [xidx2, yidx2] not in self.defaultCells:
