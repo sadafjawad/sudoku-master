@@ -1,6 +1,6 @@
 import numpy as np
 from config import*
-import time
+import time 
 from read_boards import boardList
 
 def checkConstrains(board: list, row: int, col: int) -> list:
