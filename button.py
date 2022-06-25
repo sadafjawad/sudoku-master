@@ -36,7 +36,7 @@ class Button:
         else:
             self.function()
      
-    def drawText(self, text):
+    def drawText(self, text): 
         font = pygame.font.SysFont("cambria", 20)
         text = font.render(text, False, (0,0,0))
         width, height = text.get_size()
