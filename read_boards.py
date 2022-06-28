@@ -15,5 +15,5 @@ try:
                 index+=1
             boardList.append(board)
 except FileNotFoundError:
-    print("not found")
+    print("file not found")
 
