@@ -203,8 +203,8 @@ class App:
                 possibles = [1,2,3,4,5,6,7,8,9]
                 for i in range(3):
                     for j in range(3):
-                        xidx = x*3+i
-                        yidx = y*3+j
+                        yidx = y * 3 + j
+                        xidx = x * 3 + i
                         if self.grid[yidx][xidx] in possibles:
                             possibles.remove(self.grid[yidx][xidx])
                         else:
@@ -213,8 +213,8 @@ class App:
                             if [xidx, yidx] in self.defaultCells:
                                 for k in range(3):
                                     for l in range(3): 
-                                        xidx2 = x*3+k
-                                        yidx2 = y*3+l
+                                        xidx2 = x * 3 + k
+                                        yidx2 = y * 3 + l
                                         if self.grid[yidx2][xidx2] == self.grid[yidx][xidx] and [xidx2, yidx2] not in self.defaultCells:
                                             self.incorrectCells.append([xidx2, yidx2]) 
 
