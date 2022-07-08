@@ -75,7 +75,7 @@ class App:
                 if len(self.incorrectCells) == 0:
                     self.completed = True                
 
-    def running_draw(self):
+    def running_draw(self): 
         self.window.fill(WHITE)
         for i in self.runningButtons:
             i.draw(self.window)
