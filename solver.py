@@ -7,7 +7,7 @@ def checkConstrains(board: list, row: int, col: int) -> list:
     possibles = [1,2,3,4,5,6,7,8,9]
     for i in range(9):
         if board[row][i] in possibles:
-            possibles.remove(board[row][i])
+            possibles.remove(board[row][i]) 
 
     for i in range(9):
         if board[i][col] in possibles:
