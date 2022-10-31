@@ -3,7 +3,7 @@ import sys
 from solver import* 
 from config import*
 from button import*
-
+ 
 class App:
     def __init__(self):
         pygame.init()
